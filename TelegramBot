@@ -38,9 +38,9 @@ public class SimpleBot extends TelegramLongPollingBot {
             if (message.getText().equals("/help"))
                 sendMsg(message, "Привет, я робот");
              if (message.getText().equals("Привет")||(message.getText().equals("привет")))
-                sendMsg(message, "Привет, Свинтус!");
+                sendMsg(message, "Привет, Товарищ!");
             else
-                sendMsg(message, "Привет, Андрей!");
+                sendMsg(message,"Пока, пока!");
         }
     }
 
