@@ -1,0 +1,2 @@
+# JavaRush
+Samples of code
